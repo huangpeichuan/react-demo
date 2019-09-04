@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Game from './Game';
 import LoginContrl from './LoginControl';
+import AppLi from './Li-Index';
 
 //包含其他组件
 function App() {
@@ -10,16 +11,18 @@ function App() {
     <div>
       <div id="top"></div>
       <Div name="kugou"/>
-      <div class="line"></div>
+      <div className="line"></div>
       <Clock />
-      <div class="line"></div>
+      <div className="line"></div>
       切换按钮
       <Toggle />
-      <div class="line"></div>
+      <div className="line"></div>
       井字游戏
       <Game />
-      <div class="line"></div>
+      <div className="line"></div>
       <LoginContrl />
+      <div className="line"></div>
+      <AppLi />
     </div>
   );
 }
