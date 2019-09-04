@@ -2,6 +2,7 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import Game from './Game';
+import LoginContrl from './LoginControl';
 
 //包含其他组件
 function App() {
@@ -14,7 +15,10 @@ function App() {
       <div class="line"></div>
       <Toggle />
       <div class="line"></div>
+      井字游戏
       <Game />
+      <div class="line"></div>
+      <LoginContrl />
     </div>
   );
 }
