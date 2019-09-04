@@ -4,6 +4,7 @@ import './App.css';
 import Game from './Game';
 import LoginContrl from './LoginControl';
 import AppLi from './Li-Index';
+import NameForm from './FormDemo';
 
 //包含其他组件
 function App() {
@@ -23,6 +24,13 @@ function App() {
       <LoginContrl />
       <div className="line"></div>
       <AppLi />
+      <div className="line"></div>
+      <NameForm />
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
     </div>
   );
 }
