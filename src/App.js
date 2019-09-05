@@ -5,6 +5,7 @@ import Game from './Game';
 import LoginContrl from './LoginControl';
 import AppLi from './Li-Index';
 import NameForm from './FormDemo';
+import List from './List';
 
 //包含其他组件
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <div className="line"></div>
       <NameForm />
       <div className="line"></div>
+      <List />
       <div className="line"></div>
       <div className="line"></div>
       <div className="line"></div>
