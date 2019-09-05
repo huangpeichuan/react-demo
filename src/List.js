@@ -16,8 +16,8 @@ class TrData extends React.Component {
                     return (
                         <tr key={user.id} className="text-center">
                             <td>{user.id}</td>
-                            <td>{user.title}</td>
                             <td>{user.name}</td>
+                            <td>{user.age}</td>
                             <td>{user.sex}</td>
                         </tr>
                     );
