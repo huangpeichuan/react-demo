@@ -6,6 +6,7 @@ import LoginContrl from './LoginControl';
 import AppLi from './Li-Index';
 import NameForm from './FormDemo';
 import List from './List';
+import {EssayForm,FlavorForm} from './EssayForm ';
 
 //包含其他组件
 function App() {
@@ -30,7 +31,9 @@ function App() {
       <div className="line"></div>
       <List />
       <div className="line"></div>
+      <EssayForm />
       <div className="line"></div>
+      <FlavorForm />
       <div className="line"></div>
       <div className="line"></div>
     </div>
