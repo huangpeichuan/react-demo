@@ -1,12 +1,15 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css';
 import Game from './Game';
 import LoginContrl from './LoginControl';
 import AppLi from './Li-Index';
 import NameForm from './FormDemo';
 import List from './List';
 import {EssayForm,FlavorForm} from './EssayForm ';
+import CalculatorTemperature from './CalculatorTemperature';
+import Component from './Comment';
 
 //包含其他组件
 function App() {
@@ -35,7 +38,9 @@ function App() {
       <div className="line"></div>
       <FlavorForm />
       <div className="line"></div>
+      <CalculatorTemperature />
       <div className="line"></div>
+      <Component />
     </div>
   );
 }
