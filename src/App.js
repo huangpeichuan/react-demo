@@ -9,7 +9,8 @@ import NameForm from './FormDemo';
 import List from './List';
 import {EssayForm,FlavorForm} from './EssayForm ';
 import CalculatorTemperature from './CalculatorTemperature';
-import Component from './Comment';
+import {Comments,BaseComment,CommentInput} from './Comment';
+import ChildrenPro from './ChildrenPro';
 
 //包含其他组件
 function App() {
@@ -40,7 +41,26 @@ function App() {
       <div className="line"></div>
       <CalculatorTemperature />
       <div className="line"></div>
-      <Component />
+      配合list的评论组件
+      <Comments />
+      <div className="line"></div>
+      基础组件
+      <BaseComment />
+      <div className="line"></div>
+      评论输入框
+      <CommentInput />
+      <div className="line"></div>
+      使用props.children拿到子组件内容
+      <ChildrenPro />
+      
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+
     </div>
   );
 }
